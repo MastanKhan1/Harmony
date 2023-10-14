@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="eng" xmlns:th="https://www.thymeleaf.com">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	<tr th:each="u:{member}">
+		<th th:text="${member.name}"></th>
+	</tr>
+</body>
+</html>

@@ -1,0 +1,348 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Happy Monkey', cursive;
+}
+
+#intro-section{
+    background-color: #ADD8E6;
+    padding-top: 3%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.container-fluid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.container-fluid-items ul li {
+    display: inline;
+}
+
+.container-fluid-items ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 2rem;
+    font-size: larger;
+}
+
+.container-fluid-items h1{
+    font-size: 3rem;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.container-items{
+    width: 40%;
+}
+.container-items img{
+    width: 90%;
+}
+
+.container-items h1{
+    font-size: 4rem;
+    font-weight: bolder;
+    padding-top: 3rem;
+    color: rgb(246, 251, 255);
+}
+
+.container-items p{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.button{
+    width: 10rem;
+    height: 2rem;
+    border-radius: 10px;
+    font-size: 1.25rem;
+   /* margin-bottom: 1rem; */
+}
+
+.button:hover{
+    box-shadow: 2px 2px 2px rgb(232, 226, 226);
+}
+
+form{
+    display: inline;
+    padding-right: 1rem;
+}
+
+#blue-btn{
+    background-color: #ADD8E6;
+    border: 2px solid whitesmoke;
+    color: white;
+}
+
+#join-btn{
+    color: #ADD8E6;
+}
+
+#feature-section{
+    padding: 4% 10%;
+}
+
+.feature{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#rescue{
+    background-color: rgba(173, 216, 230, 0.05);
+    
+}
+
+.feature-items{
+    width: 25rem;
+    height: 10rem;
+    box-shadow: 3px 3px 3px #d4eef6;
+    margin: 2rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.feature-items h2{
+    padding: 1rem 0;
+}
+
+.feature-items i{
+    font-size: 1.5rem;
+    color: #ADD8E6;
+}
+
+#about_why{
+    padding: 0% 7%;
+    background-color: #ADD8E6;
+}
+
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about-div{
+    width: 50%;
+}
+
+.about-div img{
+    width: 50%;
+}
+
+.about-div h2 span{
+    font-size: 3.5rem;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+.about-div h2{
+    padding: 2rem;
+}
+.about-div form input{
+    width: 10rem;
+    height: 2.5rem;
+    margin: 5%;
+    font-size: larger;
+    border-radius: 10px;
+    color: #ADD8E6;
+}
+.about-div form input:hover{
+    box-shadow: 3px 3px 3px #799198;
+}
+
+#pledge-section{
+    padding: 3% 7% 7% 7%;
+}
+
+#pledge-section h1{
+    padding: 3%;
+    font-size: 2.5rem;
+    color: #ADD8E6;
+}
+
+.pledge-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.pledge{
+    width: 25%;
+    box-shadow: 2px  2px #ADD8E6;
+    padding: 1%;
+}
+
+#last-img{
+    width: 75%;
+}
+
+.pledge img{
+    width: 50%;
+    margin-bottom: 2rem;
+}
+
+#contact-section{
+    background-color: #ADD8E6;
+    padding-bottom: 2%;
+}
+
+.contact{
+    padding: 3% 10% 4%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.contact-items{
+    text-align: center;
+}
+
+
+.contact-items h2{
+    padding-bottom: 1rem;
+    color: white;
+}
+
+.contact-items i{
+   font-size: 30px;
+   padding-bottom: 1rem;
+}
+
+.copyright{
+    text-align: center;
+}
+
+.social-media i{
+    font-size: 15px;
+    padding-left: 0.5rem;
+}
+
+
+/* ---------------------------------------  S  I  G  N  I  N  ------------------------------------------------------------ */
+
+#signin-form{
+   padding: 5% 30%;
+   /* text-align: center; */
+}
+
+.signin{
+    box-shadow: 2px 2px 2px #ADD8E6;
+    padding: 1% 15%;
+}
+
+.signin h1{
+    font-size: 5rem;
+    padding-bottom: 1rem;
+    color: #ADD8E6;
+}
+
+td{
+    padding: 0.5rem 4rem;
+}
+
+input{
+    height: 1.5rem;
+    border-radius: 10px;
+}
+
+#sign-in-btn{
+    height: 2rem;
+    width: 75%;
+    margin-left: 1.5rem;
+    font-size: 1.2rem;
+    /* background-color: #ADD8E6; */
+    border: 2px solid #ADD8E6;
+    color: #ADD8E6;
+}
+
+/* --------------------------  S  I  G  N   U  P   ----------------------------------------------------------------------------- */
+
+.signup{
+    box-shadow: -2px -2px 5px #ADD8E6;
+    padding: 1% 15%;
+}
+.signup h1{
+    font-size: 5rem;
+    padding-bottom: 1rem;
+    color: #ADD8E6;
+}
+
+.sign-in-button{
+    height: 2rem;
+    width: 75%;
+    font-size: 1.2rem;
+    /* background-color: #ADD8E6; */
+    border: 2px solid #ADD8E6;
+    color: #ADD8E6;
+    margin-left: 0.7rem;
+}
+
+/* -----------------------------------   C  O  N  T  A  C  T  -------------------------------------------------------------- */
+
+#contact-section{
+    padding: 3% 5% 0;
+}
+
+.contact-div{
+    padding-top: 3%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+
+textarea{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#info form table tr td input{
+    width: 80%;
+    border: 2px solid black;
+}
+
+#message{
+    height: 2.5rem;
+    font-size: 1.5rem;
+    color: #ADD8E6;
+    background-color: white;
+    font-weight: bolder;
+    margin-left: 35px;
+}
+
+#info h1{
+    font-size: 2.5rem;
+    color: white;
+    margin-left: 25%;
+}
+
+#extra-info{
+    padding-top: 5%;
+    padding-left: 5%;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+}
+
+#extra-info h2{
+    color: white;
+    font-size: 25px;
+    padding-bottom: 0.25rem;
+}
+
+#extra-info p{
+    padding-bottom: 2rem;
+}
+
+#extra-info div i{
+    font-size: 10px;
+    color: white;
+}

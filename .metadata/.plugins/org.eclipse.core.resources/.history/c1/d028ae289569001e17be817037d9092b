@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sign In</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Merriweather&family=Montserrat+Alternates:wght@500&family=Montserrat+Subrayada:wght@400;700&family=Montserrat:ital,wght@0,400;0,700;1,700&family=Niconne&family=PT+Mono&family=Poppins:wght@400;500&family=Roboto&family=Sacramento&family=Tinos&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    
+
+    <section id="signin-form">
+
+    <div class="signin">
+        <h1>Harmony</h1>
+        <table>
+            <form action="/open">
+    
+                <tr>
+                    <td ><input type="text" placeholder="user name"></td>
+                </tr>
+
+                <tr>
+                    <td ><input  type="password" placeholder="enter password "></td>
+                </tr>
+
+                <tr>
+                    <td><input type="submit" class="sign-in-button" value="Sign In"></td>
+                </tr>
+            </form>
+
+            
+            <form action="">
+               <tr>
+                <td><p>If you don't have an account, do join.</p></td>
+               </tr>
+                <tr>
+                    <td><input  type="submit" class="sign-in-button"  value="Join"></td>
+                </tr>
+            </form>
+
+        </table>
+        </div>
+    </section>
+</body>
+</html>

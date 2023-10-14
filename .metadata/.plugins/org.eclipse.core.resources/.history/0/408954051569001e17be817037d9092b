@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <title>Harmony</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+<link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Merriweather&family=Montserrat+Alternates:wght@500&family=Montserrat+Subrayada:wght@400;700&family=Montserrat:ital,wght@0,400;0,700;1,700&family=Niconne&family=PT+Mono&family=Poppins:wght@400;500&family=Roboto&family=Sacramento&family=Tinos&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <section id="intro-section">
+
+        <nav>
+            <div class="container-fluid">
+                <div class="container-fluid-items">
+                    <h1>Harmony</h1>
+                </div>
+                <div class="container-fluid-items">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="container">
+
+            <div class="container-items">
+                <h1>Make the first move</h1>
+                <p>Start adopting pets. If you already have an account, sign in to use Harmony.</p>
+                <form action="/sign-in">
+                    <input class="button" id="blue-btn" type="submit" value="Sign In">
+                </form>
+                <form action="/sign-up">
+                    <input class="button" id="join-btn" type="submit" value="Join">
+                </form>
+            </div>
+            <div class="container-items">
+                <img src="images/cat-coloured-removebg-preview.png" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <section id="feature-section">
+        <div class="feature">
+            <div class="feature-items">
+                <i class="fa-solid fa-paw"></i>
+                <h2>Easy To USe</h2>
+                <p>Our main moto is to provide better solution to our users. All in one place for your pet.</p>
+            </div>
+            <div class="feature-items" id="rescue">
+                <i class="fa-solid fa-kit-medical"></i>
+                <h2>Rescue</h2>
+                <p>We rescue stray/ lost/ animals or pets.</p>
+            </div>
+            <div class="feature-items">
+                <i class="fa-solid fa-hand-holding-heart"></i>
+                <h2>Adopt</h2>
+                <p>We adopt pets and we provide a platform for users to adopt a pet from Harmony.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about_why">
+       <div class="about">
+
+        <div class="about-div">
+            <img src="images/cat-img-1-removebg-preview.png" alt="">
+        </div>
+        
+        <div class="about-div">
+            <h2>Why <span>Harmony?</span></h2>
+            <p>Harmony is a platform which facilitates food and shelter to animals and look after them. It was first implemented to work on rescue animals and provide medical check up. With the support of entire team and increase in the user count we decided to expand this beneficiary platform. Users can contact us via email or phone number if any animal is on the risk. We do adopt and also have clients who are looking for adopting animal as a pet. Thanks to the entire Community who are supporting us and helping us to reach out those animals who are in need.</p>
+            <form>
+                <input type="submit" value="Learn More">
+            </form>
+        </div>
+       </div>
+
+    </section>
+
+    <section id="pledge-section">
+        <h1>What people has to say?</h1>
+        <div class="pledge-container">
+
+            <div class="pledge">
+                <img src="images/ladyAndDog.png" alt="">
+                <p>Everytime my pets get ill, I take them to Harmony. My cat had labour pain and was unable to deliver, with the help of Harmony, My cat underwent cesarean and was saved. </p>
+                
+               
+            </div>
+            <div class="pledge">
+                <img src="images/manAdoptedDogs.png" alt="">
+                <p>Adopted two wonderful puppies! thanks to Harmony and its wonderful team. I got food for half of the price and free medical checkup token.</p>
+        
+            </div>
+            <div class="pledge">
+               
+             <img id="last-img" src="images/womenAndDog.png" alt="">
+             <p>Glad to be part of Harmony, one of the trusted and beneficiary orginization, aims to protect animals.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact-section">
+        <div class="contact">
+            <div class="contact-items">
+                <i class="fa-solid fa-phone"></i>
+                <h2>Cell</h2>
+                <p>(+91) 6362158704</p>
+            </div>
+            <div class="contact-items">
+                <i class="fa-solid fa-envelope"></i>
+                <h2>Email</h2>
+                <p>mastankhan1710@gmail.com</p>
+            </div>
+            <div class="contact-items">
+                <i class="fa-solid fa-hashtag"></i>
+                <h2>Connect Us</h2>
+                <div class="social-media">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-brands fa-github"></i>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy;Made with love,
+            </p>
+            <p>from Harmony</p>
+        </div>
+    </section>
+    
+
+
+</body>
+</html>

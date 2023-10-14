@@ -1,0 +1,19 @@
+package com.najaf.harmony.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.najaf.harmony.entity.Member;
+import com.najaf.harmony.harmony_repository.HarmonyRepository;
+
+@Service
+public class HarmonyService {
+
+	@Autowired
+	private HarmonyRepository harmonyRepo;
+	
+	
+	public void saveMember(Member member) {
+		harmonyRepo.save(member);
+	}
+}

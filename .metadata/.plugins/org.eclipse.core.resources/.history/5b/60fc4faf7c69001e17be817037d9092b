@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title><title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Merriweather&family=Montserrat+Alternates:wght@500&family=Montserrat+Subrayada:wght@400;700&family=Montserrat:ital,wght@0,400;0,700;1,700&family=Niconne&family=PT+Mono&family=Poppins:wght@400;500&family=Roboto&family=Sacramento&family=Tinos&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+   
+    <section id="signin-form">
+
+        <div class="signup">
+            <h1>Harmony</h1>
+            <table>
+                <form action="">
+        
+                    <tr>
+                        <td ><input  type="text" placeholder="user name"></td>
+                    </tr>
+        
+                    <tr>
+                        <td><input  type="email" placeholder="email" name="email"></td>
+                    </tr>
+    
+                    <tr>
+                        <td><input type="text"  placeholder="contact number" name="contactNumber"></td>
+                    </tr>
+    
+                    <tr>
+                        <td ><input  type="password" placeholder="password 6-7 characters "></td>
+                    </tr>
+    
+                    <tr>
+                        <td><input type="submit" id="sign-in-btn" value="Sign In"></td>
+                    </tr>
+                </form>
+            </table>
+            </div>
+        </section>
+
+</body>
+</html>

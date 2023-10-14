@@ -1,0 +1,7 @@
+package com.najaf.harmony.harmony_repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public class HarmonyRepository implements JpaRepository<T, ID> {
+
+}

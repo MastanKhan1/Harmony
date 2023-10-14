@@ -1,0 +1,5 @@
+package com.najaf.harmony.entity;
+
+public class Member {
+
+}
